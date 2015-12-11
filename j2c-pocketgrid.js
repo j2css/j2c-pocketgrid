@@ -1,6 +1,49 @@
+/** j2c-pocketgrid  Ⓒ Arnaud Leray and Pierre-Yves Gérardy MIT-licensed. */ 
+
+module.exports = {
+  /* Border-box-sizing */
+  ".block,.blockgroup": {
+    "&, &:before, &:after": {
+      _webkit$_moz$: {box_sizing: "border-box"}
+    }
+  },
+  ".blockgroup": [
+    /* Clearfix */
+    "*zoom: 1",
+    {
+      "&:before, &:after": {
+        display: "table",
+        content: '""',
+        line_heigth: 0
+      },
+      "&:after": {clear: "both"},
+
+      /* ul/li compatibility */
+      list_style_type: "none",
+      margin$padding: 0,
+
+      "& > &": {
+        /* Nested grid */
+        clear: "none",
+        float: "left",
+        margin: "0 !important"
+      }
+    }
+  ],
+  /* Default block */
+  ".block": {
+    float: "left",
+    width: "100%"
+  }
+}
+
+/* 
+
+
 The MIT License (MIT)
 
-Copyright (c) 2015 j2css
+PocketGrid 1.1.0 Copyright (c) 2013 Arnaud Leray
+j2c port Copyright (c) 2015 Pierre-Yves Gérardy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,3 +63,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+*/

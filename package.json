@@ -1,0 +1,27 @@
+{
+  "name": "j2c-pocketgrid",
+  "version": "1.0.0+1.1.0",
+  "description": "A j2c port of PocketGrid",
+  "main": "j2c-pocketgrid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j2css/j2c-pocketgrid.git"
+  },
+  "keywords": [
+    "grid",
+    "css-in-js", 
+    "j2c"
+  ],
+  "contributors": [
+    "Arnaud Leray ",
+    "Pierre-Yves Gérardy <py@py.gy>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j2css/j2c-pocketgrid/issues"
+  },
+  "homepage": "https://github.com/j2css/j2c-pocketgrid#readme"
+}
