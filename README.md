@@ -14,7 +14,7 @@ $ npm install --save j2c-pocketgrid
 
 The wonderful [PocketGrid documentation](http://arnaudleray.github.io/pocketgrid/docs/) applies in full to `j2c-pocketgrid` as well. Learning to use PocketGrid means learning CSS, rather than non-portable grid framework knowledge.
 
-This documentation assumes you want to create a scoped/localized grid.
+We'll assume for now that you want to create scoped/localized classes.
 
 ```JavaScript
 var j2c = require('j2c');
@@ -23,7 +23,7 @@ var grid = j2c.sheet(require('j2c-pocketgrid'));
 // Put `grid` in a style element and add it to the DOM (see the j2c docs for the details).
 ```
 
-Now you can use `grid.block` and `grid.blockgroup` as class names in your JS views (they hold the localized names. don't use literally `"grid.block"` and `"grid.blockgroup"` See [the j2c docs](https://github.com/pygy/j2c/#usage) for a longer explanation).
+Now you can use the `grid.block` and `grid.blockgroup` fields as class names in your JS views (they hold the localized names. don't use literally `"grid.block"` and `"grid.blockgroup"` See [the j2c docs](https://github.com/pygy/j2c/#usage) for a longer explanation).
 
 ### IE <= 7 compatibility:
 
