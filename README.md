@@ -2,8 +2,6 @@
 
 A [j2c](http://j2c/py.gy) port of [PocketGrid](http://arnaudleray.github.io/pocketgrid/) v1.1.0.
 
-IMO the best way to use grids with j2c.
-
 ## Installation
 
 ```Shell
