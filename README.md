@@ -12,7 +12,7 @@ $ npm install --save j2c-pocketgrid
 
 ## Usage
 
-The wonderful [PocketGrid documentation](http://arnaudleray.github.io/pocketgrid/docs/) applies in full to `j2c-pocketgrid` as well. Learning to use PocketGrid means learning CSS, rather than non-portable grid framework knowledge.
+The wonderful [PocketGrid documentation](http://arnaudleray.github.io/pocketgrid/docs/) applies in full to `j2c-pocketgrid` as well. Learning to use PocketGrid means learning CSS, rather than non-transferable grid framework knowledge.
 
 We'll assume for now that you want to create scoped/localized classes.
 
