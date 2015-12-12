@@ -1,6 +1,6 @@
 {
   "name": "j2c-pocketgrid",
-  "version": "1.0.0+1.1.0",
+  "version": "1.0.1+1.1.0",
   "description": "A j2c port of PocketGrid",
   "main": "j2c-pocketgrid.js",
   "scripts": {
